@@ -1,0 +1,486 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS display</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside>
+        <h2>CSS display:</h2>
+        <nav>
+          <ul>
+            <li><a href="#usage">Definition and Usage</a></li>
+            <li><a href="#inline">Inline</a></li>
+            <li><a href="#block">Block</a></li>
+            <li><a href="#contents">Contents</a></li>
+            <li><a href="#flex">Flex</a></li>
+            <li><a href="#grid">Grid</a></li>
+            <li><a href="#inline-block">Inline-block</a></li>
+            <li><a href="#inline-flex">Inline-flex</a></li>
+            <li><a href="#inline-grid">Inline-grid</a></li>
+            <li><a href="#inline-table">Inline-table</a></li>
+            <li><a href="#list-item">List-item</a></li>
+            <li><a href="#run-in">Run-in</a></li>
+            <li><a href="#table">Table</a></li>
+            <li><a href="#table-caption">Table-caption</a></li>
+            <li><a href="#table-column-droup">Table-column-group</a></li>
+            <li><a href="#table-header-group">Table-header-group</a></li>
+            <li><a href="#table-footer-group">Table-footer-group</a></li>
+            <li><a href="#table-row-group">Table-row-group</a></li>
+            <li><a href="#table-cell">Table-cell</a></li>
+            <li><a href="#table-column">Table-column</a></li>
+            <li><a href="#table-row">Table-row</a></li>
+            <li><a href="#none">None</a></li>
+            <li><a href="#initial">Initial</a></li>
+            <li><a href="#inherit">Inherit</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <div class="content">
+        <h1>CSS display Property</h1>
+        <div id="usage">
+          <h2>Definition and Usage</h2>
+          <p>
+            The CSS display property is used to specify the display behavior of
+            an HTML element. It controls whether an element is rendered as a
+            block, inline, inline-block, table, or none. The display property is
+            a crucial tool for controlling the layout of web pages and is often
+            used in conjunction with other CSS properties such as position,
+            float, and flexbox.
+          </p>
+        </div>
+        <div id="inline">
+          <h2>Inline</h2>
+          <p>
+            The "<span> display: inline </span>" property in CSS specifies that
+            an element should be rendered inline, meaning that it should appear
+            within the text flow of a document and not create a new line.
+            Elements with this property can be nested within other inline
+            elements, and multiple inline elements can appear next to each other
+            horizontally. Additionally, the width and height properties are
+            ignored for inline elements, and margins and padding only affect the
+            left and right sides, not the top and bottom.
+          </p>
+        </div>
+        <div id="block">
+          <h2>Block</h2>
+          <p>
+            The "<span> display: block </span>" property is a CSS style property
+            that sets an element to be displayed as a block-level element. This
+            means that the element takes up the full width of its parent
+            container and creates a line break before and after it.
+          </p>
+          <p>
+            Block-level elements are commonly used for structural elements such
+            as headings, paragraphs, and lists. They can also be used to create
+            containers for other elements or to visually group content together.
+          </p>
+          <p>
+            Additionally, block-level elements have properties such as width,
+            height, margin, and padding that can be manipulated to control their
+            layout and positioning within their parent container. Overall, the
+            "<span> display: block </span>" property is a useful tool for
+            creating clear and organized layouts on a webpage.
+          </p>
+        </div>
+        <div id="contents">
+          <h2>Contents</h2>
+          <p>
+            The CSS property "<span> display: contents </span>" is a new
+            experimental feature that is currently not widely supported by most
+            web browsers. This property is used to define the layout of content
+            within a container element. When applied, it removes the container
+            element from the document flow and replaces it with the content it
+            contains, essentially hiding the container itself and only showing
+            its contents.
+          </p>
+          <p>
+            This property is particularly useful when you need to create a
+            custom layout or design that requires the content to be displayed in
+            a specific way. It allows you to manipulate the layout of your
+            content without affecting the overall structure of your HTML code.
+            However, due to its limited support, it is not recommended to use
+            this property in production websites until it becomes more widely
+            supported.
+          </p>
+        </div>
+        <div id="flex">
+          <h2>Flex</h2>
+          <p>
+            The "<span> display: flex </span>" property is a flexible layout
+            model that allows elements to be arranged in a row or column, and
+            provides a set of powerful alignment and distribution options. When
+            applied to a parent container, the child elements become flexible
+            boxes that can be resized and repositioned based on their content or
+            available space. This property enables responsive design and makes
+            it easy to create complex layouts with a minimum of code.
+            Additionally, it offers a range of features such as flexible sizing,
+            order control, alignment and justification options, and even
+            supports wrapping of flex items when the container overflows.
+            Overall, the "<span> display: flex </span>" property is a powerful
+            tool for creating modern, dynamic layouts that adapt to different
+            screen sizes and devices.
+          </p>
+        </div>
+        <div id="grid">
+          <h2>Grid</h2>
+          <p>
+            The "<span> display grid </span>" property in CSS allows you to
+            create complex layouts by dividing a web page into rows and columns.
+            This property provides a two-dimensional grid system that enables
+            you to position and align elements precisely. With grid, you can
+            control the size of each grid item, the gaps between them, and their
+            placement within the grid. This property is highly flexible and
+            allows you to create responsive layouts that adjust to different
+            screen sizes and devices. Overall, display grid is a powerful tool
+            for creating dynamic and visually appealing web layouts.
+          </p>
+        </div>
+        <div id="inline-block">
+          <h2>Inline-block</h2>
+          <p>
+            The "<span> display: inline-block </span>" property in CSS combines
+            the properties of both "<span> display: inline </span>" and "<span>
+              display: block </span
+            >". It allows an element to be displayed as an inline-level block
+            container, which means it can be placed inline with other elements
+            but also has a width and height that can be specified.
+          </p>
+          <p>
+            This property is particularly useful when you want to create
+            elements that behave like inline elements, but also have a
+            block-level layout. It also allows you to add padding and margins to
+            the element, which is not possible with the "<span>
+              display: inline </span
+            >" property.
+          </p>
+          <p>
+            Inline-block elements can also be used to create multi-column
+            layouts, and they work well for aligning items horizontally or
+            vertically within a container. However, it's important to note that
+            inline-block elements can sometimes create unexpected spacing and
+            alignment issues, so it's important to use them carefully and test
+            their behavior across different browsers.
+          </p>
+        </div>
+
+        <div id="inline-flex">
+          <h2>Inline-flex</h2>
+          <p>
+            The "<span> display: inline-flex </span>" property in CSS combines
+            the characteristics of both the "inline" and "flex" display types.
+          </p>
+          <p>
+            When applied to an element, it allows the element to be treated as
+            an inline-level element, meaning it will sit within the normal text
+            flow of the document, while also allowing it to use the flexbox
+            layout properties, such as "flex-direction" and "justify-content".
+          </p>
+          <p>
+            This is particularly useful for creating responsive layouts where
+            elements need to be flexible and adjust to different screen sizes,
+            while still maintaining their position within the text flow of the
+            document. Additionally, "<span> display: inline-flex </span>" allows
+            for easy centering of elements both vertically and horizontally, as
+            well as providing the ability to space elements evenly along a
+            horizontal or vertical axis.
+          </p>
+        </div>
+        <div id="inline-grid">
+          <h2>inline-grid</h2>
+          <p>
+            The "<span> display: inline-grid </span>" property in CSS allows you
+            to create an inline-level grid container, meaning that the container
+            will behave like an inline-level element such as a span or an anchor
+            tag. This property is useful when you want to create a grid layout
+            that flows with the text content on the page, rather than disrupting
+            the natural flow of the content. An inline-level grid container will
+            only take up as much space as necessary to display its contents, and
+            its grid items will be arranged in a grid pattern within the
+            container.
+          </p>
+        </div>
+        <div id="inline-table">
+          <h2>Inline-table</h2>
+          <p>
+            The "<span> display: inline-table </span>" property in CSS allows an
+            element to be displayed as a table, but within the flow of text as
+            if it were an inline-level element. This means that other elements
+            can sit next to it on the same line, just as if it were an
+            inline-level element like text or an image. However, the contents of
+            the inline-table will still be laid out like a table, with rows and
+            columns, and it can have its own padding, borders, and background
+            color. This property is useful when you want to display tabular
+            data, but you don't want to take up a full line or break the flow of
+            text.
+          </p>
+        </div>
+        <div class="list-item">
+          <h2>List-item</h2>
+          <p>
+            The "<span> display: list-item </span>" property is used to create a
+            list item element, which is typically used in an ordered or
+            unordered list. When applied to an element, it changes its display
+            behavior to that of a list item, which includes rendering a bullet
+            or numbering for each item by default.
+          </p>
+          <p>
+            In addition to the visual styling, list items also have certain
+            properties that affect their behavior, such as the ability to be
+            nested within other list items, and the ability to be styled
+            differently depending on their position within the list. Overall,
+            "<span> display: list-item </span>" is a useful property for
+            creating well-structured, semantic lists in HTML and CSS.
+          </p>
+        </div>
+        <div id="run-in">
+          <h2>Run-in</h2>
+          <p>
+            The "<span> display: run-in </span>" property is a CSS feature that
+            allows the first line of a block element to be displayed inline with
+            the text that follows it. This means that the first line will not
+            create a new line or break the flow of text. Instead, it will appear
+            as if it is a part of the text that immediately follows it.
+          </p>
+          <p>
+            This property is useful in situations where you want to emphasize or
+            highlight a particular phrase or sentence within a paragraph,
+            without creating a visual break between the highlighted text and the
+            rest of the paragraph. By using the "<span> display: run-in </span>"
+            property, you can create a seamless transition between the
+            highlighted text and the surrounding content, resulting in a more
+            visually appealing and cohesive design.
+          </p>
+          <p>
+            It's worth noting that not all browsers support the "<span>
+              display: run-in </span
+            >" property, so it's important to check browser compatibility before
+            using this feature.
+          </p>
+        </div>
+        <div id="table">
+          <h2>Table</h2>
+          <p>
+            The "<span> display: table </span>" property in CSS is used to
+            define an element as a table-like structure, allowing it to behave
+            like a table in terms of layout and formatting. When an element is
+            set to "<span> display: table </span>", it creates a block-level
+            container that can contain other elements, which can be styled as
+            table rows and cells using the "<span> display: table-row </span>"
+            and "<span> display: table-cell </span>" properties. This allows for
+            more flexibility in layout design, as the content can be organized
+            into a structured grid without the need for actual HTML table
+            markup.
+          </p>
+        </div>
+        <div id="table-caption">
+          <h2>Table-caption</h2>
+          <p>
+            The "<span> display: table-caption </span>" property is used in CSS
+            to specify the display behavior of an element that is used as a
+            caption for a table. When applied to an element, it causes the
+            element to be displayed as a caption for the table, appearing above
+            or below the table depending on the "caption-side" property
+          </p>
+          <p>
+            The "table-caption" element inherits some of the properties of its
+            parent table, such as "width" and "border-collapse". It can also
+            have its own properties such as "background-color" and "font-size".
+            This property is typically used in conjunction with the "table"
+            display property to create a complete table structure.
+          </p>
+        </div>
+        <div id="table-column-group">
+          <h2>Table-column-group</h2>
+          <p>
+            The "<span> display: table-column-group </span>" property is used to
+            group columns in a table and apply styles to them. It specifies that
+            the element should be displayed as a column group in a table.
+          </p>
+          <p>
+            This property is often used in conjunction with other table-related
+            properties such as "table-layout" and "border-collapse" to control
+            the layout and appearance of the table. When applied to an element,
+            it causes the element to behave like a column group, allowing other
+            table-related properties to affect it accordingly.
+          </p>
+        </div>
+        <div id="table-header-group">
+          <h2>Table-header-group</h2>
+          <p>
+            The "<span> display: table-header-group </span>" CSS property is
+            used to specify that an HTML element should be rendered as a group
+            header within a table. When this property is applied to an element,
+            it causes the element to be displayed as a row that acts as a header
+            for a group of rows within the table.
+          </p>
+          <p>
+            This property is typically used in conjunction with the "<span>
+              display: table-row-group </span
+            >" property to group together a set of rows within a table and
+            provide them with a header. The "table-header-group" element is
+            positioned before the "table-row-group" element in the table
+            structure, and any styles applied to it will affect the entire group
+            of rows that follow it.
+          </p>
+          <p>
+            Overall, the "<span> display: table-header-group </span>" property
+            is a useful tool for structuring tables and creating a clear visual
+            hierarchy within tabular data.
+          </p>
+        </div>
+        <div id="table-footer-group">
+          <h2>Table-footer-group</h2>
+          <p>
+            The "<span> display: table-footer-group </span>" property is a CSS
+            display property value that is used to control the rendering of
+            table elements in HTML. When applied to a table-footer-group
+            element, it causes the element to behave as a table footer group,
+            which is used to group and display the footer rows of a table.
+          </p>
+          <p>
+            This property is typically used in conjunction with other
+            table-related properties to control the layout and appearance of
+            table elements on a webpage. By using the "<span>
+              display: table-footer-group </span
+            >" property, designers can control the size, positioning, and other
+            visual properties of the footer group to achieve the desired effect.
+            Overall, this property provides a powerful tool for controlling the
+            presentation of table elements on a webpage.
+          </p>
+        </div>
+        <div id="table-row-group">
+          <h2>Table-row-group</h2>
+          <p>
+            The "<span> display: table-row-group </span>" property is used in
+            CSS to define a group of rows within a table. When this property is
+            applied to an HTML element, it causes the element to behave like a
+            "tbody" tag.
+          </p>
+          <p>
+            Elements with "<span> display: table-row-group </span>" are used to
+            group a set of table rows that belong together, such as a table
+            header, a table body, or a table footer. This property allows for
+            greater control over the layout and presentation of a table,
+            allowing developers to create more complex and dynamic tables with
+            ease.
+          </p>
+        </div>
+        <div id="table-cell">
+          <h2>Table-cell</h2>
+          <p>
+            The "<span> display: table-cell </span>" property is used to specify
+            that an HTML element should behave like a table cell. This means
+            that the element will be displayed as an inline-level block
+            container that can be aligned vertically and horizontally within a
+            table row.
+          </p>
+          <p>
+            When an element is displayed as a table cell, it can also inherit
+            certain properties of a table cell, such as the ability to have
+            padding and borders, and the ability to stretch or shrink to fit the
+            size of its contents or its parent container. This property is
+            commonly used in conjunction with the "<span> display: table </span
+            >" property to create table-like layouts using CSS instead of
+            traditional HTML table tags.
+          </p>
+        </div>
+        <div id="table-column">
+          <h2>Table-column</h2>
+          <p>
+            The "<span> display: table-column </span>" property is used to
+            define a table column within a table layout. When this property is
+            applied to an HTML element, it makes it behave like a table column,
+            allowing other table cells to align with it.
+          </p>
+          <p>
+            This property can be useful when creating complex table layouts, as
+            it provides more control over how columns are arranged and aligned.
+            Additionally, it can be used to specify various styling options for
+            the column, such as setting the width, height, or background color.
+            Overall, the "<span> display: table-column </span>" property is an
+            important tool for web developers who want to create dynamic and
+            responsive tables on their websites.
+          </p>
+        </div>
+        <div id="table-row">
+          <h2>Table-row</h2>
+          <p>
+            The "<span> display: table-row </span>" property is used to specify
+            that an element should be displayed as a row within a table. This
+            property is typically used in conjunction with the "<span>
+              display: table </span
+            >" and "<span> display: table-cell </span>" properties to create
+            table layouts in HTML and CSS.
+          </p>
+          <p>
+            When an element is set to "<span> display: table-row </span>", it
+            will behave like a table row in terms of layout and positioning.
+            This means that it will stretch to fill the width of its container
+            and its height will be determined by the content of its table cells.
+            Additionally, table rows will typically be separated from one
+            another by a horizontal line, which can be styled using the "border"
+            property.
+          </p>
+          <p>
+            Overall, "<span> display: table-row </span>" is a useful property
+            for creating table layouts in CSS, allowing for a flexible and
+            responsive design that can adapt to different screen sizes and
+            device types.
+          </p>
+        </div>
+        <div id="none">
+          <h2>None</h2>
+          <p>
+            The "<span> display: none</span> " property is a CSS property that
+            can be used to hide an element on a web page. When this property is
+            applied to an element, it removes it from the flow of the document
+            and the space it occupied is no longer taken into account in the
+            layout. This means that the element will not be visible to the user,
+            and will not affect the positioning of other elements on the page.
+            Additionally, any child elements of the hidden element will also be
+            hidden. This property can be useful for creating dynamic effects or
+            for hiding elements that should only be displayed under certain
+            conditions.
+          </p>
+        </div>
+        <div id="initial">
+          <h2>Initial</h2>
+          <p>
+            The CSS property "<span> display: initial </span>" sets an element
+            to its default initial value for the "display" property, which
+            varies depending on the element type. For example, the default
+            display value for most elements is "inline", while the default for a
+            "div" element is "block".
+          </p>
+          <p>
+            Setting an element's "display" property to "initial" essentially
+            resets it to its default value, undoing any previous "display"
+            property modifications that may have been made. This can be useful
+            when you want to quickly reset an element's display behavior without
+            needing to know or specify its default value explicitly.
+          </p>
+        </div>
+        <div id="inherit">
+          <h2>Inherit</h2>
+          <p>
+            The "<span> display: inherit </span>" property in CSS specifies that
+            an element should inherit the display value of its parent element.
+            This means that if the parent element has a display value of
+            "block," for example, then the child element will also be displayed
+            as a block-level element. Conversely, if the parent element has a
+            display value of "inline," then the child element will be displayed
+            inline. This property is useful for maintaining consistency in the
+            layout and styling of nested elements.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
