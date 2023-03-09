@@ -1,0 +1,74 @@
+/** @format */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.wrapper {
+  position: relative;
+}
+aside {
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid #76828d;
+  box-shadow: 1px 0 3px #76828d;
+  background-color: #d6d6d6;
+  width: 180px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  overflow-y: auto;
+}
+aside h2 {
+  display: block;
+  margin: 0;
+  padding: 10px;
+  background-color: #c6c6c6;
+}
+aside ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+aside a {
+  padding: 5px 10px;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 1px solid #76828d;
+}
+aside a:hover {
+  background-color: #c6c6c6;
+}
+.content {
+  margin-left: 180px;
+}
+.content div {
+  padding: 10px;
+}
+.content div:nth-child(odd) {
+  background-color: #d1d5d9;
+}
+.content div:nth-child(even) {
+  background-color: #e8eaec;
+}
+h1 {
+  margin: 0;
+  padding: 18px;
+  border-bottom: 5px solid #d1d5d9;
+}
+span {
+  font-family: 'Roboto Mono';
+  background-color: #c6c6c6;
+}
